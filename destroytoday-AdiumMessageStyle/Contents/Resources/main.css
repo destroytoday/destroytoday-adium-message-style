@@ -1,0 +1,44 @@
+body {
+	font-size: 11px;
+	font-family: Helvetica, Verdana, Arial, Sans-Serif;
+	background-color: #222222;
+	color: #AAADB6;
+	line-height:13px;
+	
+	margin: 0px;
+	padding: 0px; 
+}
+
+a:link, a:visited, a:active { color: #00728F; text-decoration: none; }
+a:hover { color: #00AFDB; text-decoration: none; }
+
+.Incoming, .Outgoing {
+	padding: 10px;
+}
+
+.User {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	color: #CFD4D8;
+	line-height:14px;
+}
+
+.Date {
+	color: #666972;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+.Message {}
+.NextMessage { margin: 6px 0px 0px 0px; }
+
+.Status {
+	padding: 10px;
+}
+
+.Status .Message {
+	background-color: #00728F;
+	color: #FFFFFF;
+	padding: 10px;
+}
